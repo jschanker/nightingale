@@ -1,0 +1,148 @@
+.CifPage .container {
+  text-align: left !important;
+}
+.CifPage .hero {
+  height: 60vh;
+  max-height: 60vh;
+  background-image: url("./assets/cif-bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+.CifPage .container .col-sm-6::before {
+  background-image: url("./assets/Shape.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -1%;
+  top: 5%;
+}
+.description .sub-section {
+  margin-bottom: 2rem;
+}
+/*  */
+.application .sign img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -7px;
+  left: 40%;
+  transform: translateX(-50%);
+  transform: rotate(-90deg);
+}
+
+.email .text-primary:hover,
+.email .text-primary:focus {
+  color: var(--primary) !important;
+}
+.CifPage .hero,
+.CifPage .cif,
+.CifPage .offer,
+.CifPage .looking,
+.CifPage .description,
+.CifPage .application,
+.CifPage .questions {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1500px) {
+  .application .container {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .CifPage .hero {
+    height: 50vh;
+  }
+
+  .CifPage .container {
+    width: 70% !important;
+  }
+  .application .container {
+    width: 100% !important;
+    margin-inline: 20px;
+  }
+  .application .row {
+    flex-direction: column !important;
+  }
+  .sign {
+    transform: rotate(90deg);
+  }
+  .application span {
+    width: 50% !important;
+  }
+  .questions .row {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .CifPage {
+    overflow-x: hidden;
+  }
+  .CifPage .hero {
+    height: 40vh;
+  }
+  .CifPage .container {
+    width: 90% !important;
+  }
+  .container .row {
+    width: 100%;
+  }
+  .CifPage .application span {
+    width: 85% !important;
+  }
+  .CifPage .questions .row {
+    width: 100% !important;
+    height: 60px;
+  }
+  .CifPage .sign {
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 580px) {
+  .CifPage .container {
+    width: 95% !important;
+  }
+}
+@media screen and (max-width: 478px) {
+  .CifPage .hero {
+    height: auto;
+  }
+  .hero .data {
+    margin: 1em !important;
+  }
+  .container .col-sm-6::before {
+    left: -1%;
+    top: 10%;
+  }
+  .hero .btn {
+    margin-bottom: 1rem;
+  }
+  .hero h2 {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .CifPage .hero {
+    height: auto;
+  }
+  .container .col-sm-6::before {
+    width: 15px;
+    height: 15px;
+    left: -1%;
+  }
+  .contact .col {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 345px) {
+  .sign img {
+    margin: 0 !important;
+  }
+}

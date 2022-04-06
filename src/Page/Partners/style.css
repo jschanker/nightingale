@@ -1,0 +1,117 @@
+.partners hr {
+  width: 6rem;
+  border: transparent;
+  border-top: 3px solid #f05f40;
+}
+.partners .card {
+  box-shadow: 0px 1px 2px rgba(46, 46, 46, 0.06),
+    0px 2px 1px rgba(46, 46, 46, 0.04), 0px 1px 5px rgba(46, 46, 46, 0.08);
+  border-radius: 8px;
+  width: 430px;
+  min-width: 250px;
+  transition: all ease-in 0.3s;
+}
+.partnerInfo {
+  margin-bottom: 80px;
+}
+.partnerInfo .card {
+  font-size: 1.5rem;
+  cursor: auto;
+  border: 2px solid transparent;
+}
+.partnerInfo .card:hover {
+  box-shadow: 0px 1px 2px rgba(46, 46, 46, 0.06),
+    0px 2px 1px rgba(46, 46, 46, 0.04), 0px 1px 5px rgba(46, 46, 46, 0.08) !important;
+}
+
+.partnerInfo .card span {
+  font-size: 3.5rem;
+}
+.partners .btn {
+  padding: 0.5rem 0;
+  width: 352px;
+}
+.partners .all-partners-row {
+  flex-wrap: wrap;
+}
+.partners .section-head {
+  font-family: Lusitana !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+.partners-data .card {
+  cursor: auto;
+  border: 2px solid transparent;
+}
+.partners-data .card .status {
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: var(--active);
+  padding: 6px 12px;
+  width: fit-content;
+}
+.social-media-icons {
+  bottom: 0;
+}
+/* .all-partners .card {
+  height: 450px;
+} */
+@media screen and (max-width: 1700px) {
+  .partners .card {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .all-partners {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .partners .card {
+    width: 320px;
+  }
+  .social-media-icons {
+    width: 30% !important;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .partners .card {
+    width: 300px;
+  }
+  .all-partners {
+    width: 95% !important;
+  }
+}
+@media screen and (max-width: 970px) {
+  .partners .card {
+    width: 480px;
+  }
+  .social-media-icons {
+    width: 20% !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .partner-content-data {
+    width: 90% !important;
+    text-align: left !important;
+  }
+  .partners-support-section h3 {
+    width: 90% !important;
+  }
+  .partners .btn {
+    padding: 0.3rem 4rem;
+    font-size: 1rem !important;
+  }
+  .social-media-icons {
+    width: 40% !important;
+  }
+  .all-partners .card {
+    margin-inline: 0.5rem;
+  }
+  .partnerInfo .card span {
+    font-size: 2rem !important;
+  }
+  /* .partners-data{
+    margin-top: 0 !important;
+  } */
+}

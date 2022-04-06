@@ -1,0 +1,68 @@
+.partners-carousal-cards {
+  /* padding: 0 200px; */
+  display: flex;
+}
+.partition-carousal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-inline: 60px;
+  padding-right: 40px; */
+  text-align: center;
+}
+
+.partition-carousal-content-img {
+  height: 64px;
+  width: 64px;
+}
+.partners-carousal-arrow--left {
+  left: -5%;
+}
+
+.partners-carousal-arrow--right {
+  left: auto;
+  right: -5%;
+}
+.partition-carousal-content span {
+  color: #818181;
+}
+@media screen and (max-width: 1000px) {
+  .partner-slider .carousal-content {
+    padding: 0 50px;
+  }
+  .partner-slider .arrow--left {
+    left: 20px;
+  }
+  .partner-slider .arrow--right {
+    left: auto;
+    right: 40px;
+  }
+  .carousal-image-container {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .media-slider p {
+    font-family: Luistana;
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+  .slider .arrow{
+    height: 15px;
+    width: 15px;
+  }
+  .partition-carousal-content {
+    padding-inline: 20px;
+  }
+  .partners-carousal-arrow--left {
+    left: 5px;
+  }
+  .partners-carousal-arrow--right {
+    left: auto;
+    right: 5px;
+  }
+  .partition-carousal-content p {
+    padding-top: 5px;
+  }
+}

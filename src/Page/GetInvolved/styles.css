@@ -1,0 +1,64 @@
+/* Nunito Sans */
+
+
+/* For sections */
+.home {
+    background-color: #fff;
+    text-align: center;
+    font-family: "Lusitana", "Nunito Sans", Fallback, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.page-title {
+    /* background-color: brown; */
+    font-size: 36px;
+    margin: 0;
+}
+
+.page-section {
+    margin: 40px 0;
+}
+
+.first-page-section {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.page-subtitle {
+    /* font-family: "Nunito Sans";
+    font-size: 24px;
+    margin-bottom: 20px; */
+    /* font-family: Nunito Sans; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.img-container {
+    background-color: black;
+    background-image: linear-gradient(rgb(78, 76, 76), rgb(7, 7, 7));
+}
+
+.card-img {
+    height: 400px;
+    opacity: 0.2;
+}
+
+.row-card {
+    padding-left: 13%;
+    padding-right: 12%;
+    padding-bottom: 7%;
+}
+
+.content {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 35px;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 40px;
+}

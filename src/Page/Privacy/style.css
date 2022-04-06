@@ -1,0 +1,29 @@
+.privacy_privacy-policy,
+.privacy_info-collection,
+.privacy_log-data,
+.privacy_cookies,
+.privacy_service-providers,
+.privacy_security,
+.privacy_other-sites,
+.privacy_children-policy,
+.privacy_changes-policy,
+.privacy_contact-us {
+  margin-bottom: 80px;
+}
+.privacy_privacy-policy {
+  margin-top: 80px;
+}
+.privacy_contact-us a:hover,
+.privacy_contact-us a:focus {
+  color: var(--primary) !important;
+}
+@media screen and (max-width: 1100px) {
+  .privacy .container {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .privacy .container {
+    width: 95% !important;
+  }
+}

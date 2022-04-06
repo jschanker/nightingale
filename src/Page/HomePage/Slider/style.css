@@ -1,0 +1,137 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+  min-height: 200px;
+  max-height: 100vh;
+}
+.media-slider p {
+  font-family: Luistana !important;
+  font-size: 1.5rem;
+}
+.media-slider a:hover {
+  text-decoration: none;
+}
+.navigation-wrapper {
+  position: relative;
+  background-color: transparent;
+}
+.carousal-content {
+  padding: 30px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-wrapper p {
+  /* width: 100%; */
+  font-weight: 300;
+  padding: 0 30px;
+  font-family: Lusitana;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  margin: 0;
+}
+.carousal-image-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 185px;
+  padding: 3px;
+  border-radius: 50%;
+}
+.carousal-img {
+  height: 100%;
+  width: 182px;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #c5c5c5;
+  margin: 0 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: rgba(240, 95, 64, 1);
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: grey;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: -5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 0px;
+}
+
+.arrow--disabled {
+  fill: grey;
+}
+@media screen and (max-width: 900px) {
+  .carousal-content {
+    padding: 0 50px;
+  }
+  .arrow--left {
+    left: 0px;
+  }
+  .arrow--right {
+    left: auto;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .carousal-content {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .arrow--left {
+    left: 0px;
+  }
+  .arrow--right {
+    left: auto;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousal-content {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .arrow--left {
+    left: 10px;
+  }
+  .arrow--right {
+    left: auto;
+    right: 10px;
+  }
+}

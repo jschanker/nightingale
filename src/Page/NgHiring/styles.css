@@ -1,0 +1,71 @@
+.ng-hiring-page {
+  background-color: #fff;
+  text-align: center;
+}
+
+.hiring-page-section button {
+  width: 352px;
+}
+
+.hiring-page-content {
+  font-weight: 400;
+  line-height: 28px;
+}
+.ng-hiring-page a:hover {
+  color: var(--btnHover);
+}
+.hring-card-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid transparent;
+  transition: all ease-in 0.2s;
+  padding: 0px;
+  box-sizing: content-box;
+}
+.hiring-page-card-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  transition: all ease-in 0.2s;
+  margin-bottom: 14.375rem;
+  transition: all ease-in 0.2s;
+  pointer-events: none;
+}
+.hiring-page-card-container .card {
+  padding-block: 30px;
+}
+.hiring-page-card-container:hover .card-details {
+  opacity: 0.5;
+}
+.hiring-page-card-container .card:hover {
+  transform: scale(1.1);
+  border: 2px solid transparent;
+  box-shadow: none;
+  opacity: 1;
+  z-index: 2;
+  box-shadow: none !important;
+}
+@media screen and (max-width: 667px) {
+  .hiring-page-content {
+    margin: 20px 0px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .hiring-page-content .section-para {
+    width: 100% !important;
+  }
+  .hiring-section-title {
+    line-height: 28px;
+  }
+  .hiring-page-card-container {
+    justify-content: space-between;
+    width: 90% !important;
+  }
+
+  .hring-card-img {
+    width: 64px;
+    height: 64px;
+  }
+}

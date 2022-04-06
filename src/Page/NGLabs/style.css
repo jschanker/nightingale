@@ -1,0 +1,172 @@
+.right img {
+  position: absolute;
+  right: 0;
+  height: 384px;
+}
+.ng-labs a {
+  color: black;
+  text-decoration: none;
+}
+.right .vector-svg {
+  position: absolute;
+  right: -3em;
+  top: -1em;
+  height: 464px;
+}
+.ng-labs .container {
+  width: 78%;
+}
+.ng-labs .main .btn {
+  padding: 0.5rem 7rem;
+}
+.ng-labs .card {
+  width: 21rem;
+  height: 100%;
+  box-shadow: 0px 3px 2px rgba(46, 46, 46, 0.06),
+    0px 2px 2px rgba(46, 46, 46, 0.04), 0px 2px 5px rgba(46, 46, 46, 0.08);
+  border-radius: 8px;
+}
+.ng-labs .projects {
+  margin-top: 14rem;
+}
+
+.timeline img {
+  height: 458px;
+}
+.ng-labs .idea {
+  margin-bottom: 8.125rem;
+}
+.idea button {
+  width: 352px;
+  padding: 8px 16px;
+}
+.projects a:hover {
+  color: var(--primary) !important;
+  text-decoration: underline;
+}
+.projects {
+  margin-bottom: 5rem;
+}
+
+.ng-labs .row {
+  flex-wrap: wrap;
+}
+.ng-labs .projects .card {
+  /* width: 256px; */
+  height: fit-content;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  border: none;
+  max-width: 430px !important;
+}
+.ng-labs .projects .card .image-container {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px 8px 0px 0px;
+  
+}
+.ng-labs .projects .card_partion_line {
+  margin: 0;
+}
+.ng-labs .projects .card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px 8px 0px 0px;object-fit: cover;
+}
+.ng-labs .projects .card .description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.ng-labs .projects .card .status {
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: var(--active);
+  padding: 6px 12px;
+}
+@media screen and (max-width: 1220px) {
+  .right img {
+    right: 0;
+    height: 20em;
+  }
+  .right .vector-svg {
+    right: -4.5em;
+    top: -1em;
+    height: 25em;
+  }
+  .main .container {
+    width: 85%;
+  }
+  .main .btn {
+    padding: 0.5em 3em;
+  }
+  .timeline img {
+    height: 25em;
+  }
+}
+@media screen and (max-width: 864px) {
+  .col-img {
+    width: 0;
+    display: none;
+  }
+  .col-data {
+    width: 100%;
+    align-items: center;
+  }
+  .main .btn {
+    padding: 0.5em 5em;
+  }
+  .ng-labs .main {
+    margin-top: 3rem !important;
+  }
+  .projects {
+    margin-top: 5em !important;
+  }
+  .timeline img {
+    height: 19em;
+  }
+  .ng-labs .projects .container .row {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main {
+    margin-top: 3em !important;
+  }
+  .mg-labs .projects {
+    margin-top: 3rem !important;
+  }
+  .main h2 {
+    margin-bottom: 0.7em;
+  }
+  .timeline img {
+    height: 13em;
+  }
+  .ng-labs .container {
+    width: 90% !important;
+  }
+  .main .container {
+    width: 100% !important;
+  }
+  .ng-labs .main .btn {
+    padding: 0;
+  }
+  .ng-labs .projects .card {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .main .btn {
+    padding: 0.5em 1.5em;
+  }
+  .timeline img {
+    height: 10em;
+  }
+  .ng-labs .btn {
+    padding: 0.5em 2em;
+  }
+  .ng-labs .idea {
+    margin-bottom: 5rem !important;
+  }
+}

@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*:focus-visible,
+*:focus {
+  outline: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lusitana;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5 !important;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+
+/* cards */
+.card {
+  transition: all ease-in 0.2s;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.card:hover {
+  border: 2px solid var(--primary);
+  box-shadow: 0px 16px 24px rgba(46, 46, 46, 0.06),
+    0px 6px 30px rgba(46, 46, 46, 0.04), 0px 8px 10px rgba(46, 46, 46, 0.08) !important;
+}
+
+:root {
+  --primary: #f05f40;
+  --btnHover: #ec4a26;
+  --danger: #ff342a;
+  --navGrey: #333333;
+  --bgBlack: #1a1c1f;
+  --bgCard: #2f323a;
+  --bgLighterBlack: #242629;
+  --bgGraph: #171717;
+  --orange: #ffa114;
+  --bg-card-1: #fcdfd9;
+  --bg-card-2: #e6e6e6;
+  --gray: #6c757d;
+  --active: #e9f5e9;
+}
+/* margins */
+.mt-7 {
+  margin-top: 7rem !important;
+}
+.mt-0\.5 {
+  margin-top: 0.5rem !important;
+}
+.mb-6 {
+  margin-bottom: 5rem;
+}
+.mt-6 {
+  margin-top: 5rem;
+}
+.mx-6 {
+  margin-inline: 6.5rem;
+}
+.mr-0\.5 {
+  margin-right: 0.5rem !important;
+}
+.mh-10 {
+  min-height: 10em !important;
+}
+/* font*/
+
+.fw-bold {
+  font-weight: 900;
+}
+.fs-1\.5 {
+  font-size: 1.5rem !important;
+}
+.f-luis {
+  font-family: Luistana !important;
+}
+.f-Nuni {
+  font-family: Nunito Sans !important;
+}
+.text-black {
+  color: black;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+/* paddings */
+
+.px-8 {
+  padding-inline: 8rem !important;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/* widths  */
+
+.w-70 {
+  width: 70% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+
+/* buttons and components */
+
+.regular-btn {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 48px;
+  font-size: 1.125rem;
+}
+.regular-btn:hover,
+.regular-btn:active {
+  background-color: var(--btnHover) !important;
+  border-color: var(--btnHover) !important;
+}
+
+.dashed-btn {
+  background-color: #fff;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  transition: all ease-in 0.2s;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 8px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.dashed-btn:hover,
+.dashed-btn:active {
+  color: #fff;
+  background-color: var(--btnHover) !important;
+  border: 1px solid var(--btnHover) !important;
+}
+
+.regular-btn:focus,
+.dashed-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.heading-hr {
+  width: 6rem !important;
+  border: transparent !important;
+  border-top: 3px solid #f05f40 !important;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 667px) {
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 0.875rem !important;
+  }
+  .regular-btn,
+  .dashed-btn {
+    font-size: 0.875rem !important;
+    width: 100% !important;
+  }
+}

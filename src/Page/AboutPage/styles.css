@@ -1,0 +1,45 @@
+.about-page {
+  background-color: #fff;
+  text-align: center;
+}
+
+.page-section {
+  margin: 40px 0;
+}
+
+.about-page-content {
+  margin: 80px 0;
+  text-align: left;
+}
+
+.about-content {
+  margin: 30px 0;
+  text-align: left;
+}
+.mou-pdf {
+  cursor: pointer;
+  font-weight: 600;
+}
+.mou-pdf:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 667px) {
+  .underliner {
+    margin-left: 150px;
+    width: 70px;
+  }
+  .backgroundImg {
+    height: 230px;
+    /* width: 300px; */
+  }
+  .about-page-content {
+    margin: 20px 0px;
+  }
+  .about-content {
+    margin: 20px 0px;
+  }
+  .about-content p,
+  .about-page-content p {
+    width: 90% !important;
+  }
+}

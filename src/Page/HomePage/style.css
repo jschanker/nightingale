@@ -1,0 +1,236 @@
+.home-page-bg {
+  background: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+  width: 100%;
+  height: 800px;
+}
+.rgba-black-strong {
+  background: linear-gradient(
+    179.02deg,
+    rgba(0, 0, 0, 0.84) 12.49%,
+    rgba(0, 0, 0, 0.6) 54.02%,
+    rgba(0, 0, 0, 0) 99.16%
+  );
+  height: 800px;
+}
+.home-page-hero-section-data {
+  line-height: 1.4;
+  max-width: 570px;
+  color: #ffffff;
+  margin-top: 10%;
+}
+.home-page-hero-section-data-p {
+  max-width: 570px;
+  line-height: 28px;
+}
+.Initiatives-bg-color {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 52.6%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 350px;
+  border-radius: 15px;
+}
+.our-initiatives .card {
+  transition: all ease-in 0.2s;
+}
+.our-initiatives .card:hover {
+  filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.06))
+    drop-shadow(0px 6px 30px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.08));
+  border: 2px solid transparent;
+}
+.our-initiatives .card:hover a:hover {
+  text-decoration: none;
+}
+.bg-image1 {
+  background: url("https://nightingale1.s3.ap-south-1.amazonaws.com/images/job-courses.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.bg-image2 {
+  background: url("https://nightingale1.s3.ap-south-1.amazonaws.com/images/meraki.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+.bg-image3 {
+  background: url("https://nightingale1.s3.ap-south-1.amazonaws.com/images/CIF.png");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  width: 100%;
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+.bg-image4 {
+  background: url("https://nightingale1.s3.ap-south-1.amazonaws.com/images/NG-labs.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.software-development-img {
+  background: url("./assets/bg\ \(1\).png");
+  background-repeat: no-repeat;
+  margin-top: 85px;
+}
+.external-link-icon {
+  margin-bottom: 1.8rem;
+  font-size: 1.5rem;
+}
+
+.card-main-text {
+  margin-top: 180px;
+}
+.card-heading {
+  font-style: normal;
+  font-weight: bold;
+}
+.card-dic {
+  max-width: 390px;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.impact .count {
+  font-size: 72px !important;
+  color: rgba(240, 95, 64, 1);
+  margin: 8px;
+  font-family: Lusitana;
+  font-style: normal;
+  font-weight: 600;
+}
+.impactellipse {
+  margin-top: 45px;
+}
+
+.impact {
+  background-image: url("./assets/backgroundImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partner {
+  background-color: rgba(240, 95, 64, 1) !important;
+}
+.our-partner-btn {
+  width: 352px;
+}
+
+.media-scroll-section {
+  background-color: #f9f9f9;
+  padding-inline: 15%;
+}
+.supporters {
+  /* background: #f9f9f9; */
+  padding: 70px;
+}
+.supporters-link {
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+}
+.supporters-link img {
+  width: 150px;
+  height: 100%;
+}
+.our-partners,
+.navgurukul-homepage .consult {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1200px) {
+  .our-partners {
+    margin-inline: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .card-main-text {
+    margin-top: 85px;
+  }
+  .home-page-hero-section-data {
+    max-width: 600px;
+    font-size: 24px;
+    margin-top: 10%;
+  }
+
+  .our-initiatives .container,
+  .initiative-card-parent,
+  .rgba-black-strong .container {
+    padding: 0;
+  }
+  .impact .count {
+    font-size: 3rem !important;
+  }
+  .impactellipse {
+    display: none;
+  }
+  .software-development-img {
+    background-image: none;
+  }
+  .software-development-img {
+    margin-top: 0;
+  }
+  .homepage-hero-data {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-page-hero-btns button {
+    width: 156px;
+  }
+  .initiative-card {
+    width: 100%;
+    max-height: 220px;
+  }
+  .Initiatives-bg-color {
+    width: 100%;
+    max-height: 220px;
+  }
+  .home-page-bg,
+  .rgba-black-strong {
+    /* width: 360px; */
+    height: 360px !important;
+  }
+  .home-page-bg h2 {
+    font-size: 1.5rem !important;
+  }
+  .navgurukul-homepage .container {
+    width: 90% !important;
+  }
+  .media-scroll-section {
+    padding-inline: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-page-hero-btns button {
+    width: 100px;
+  }
+  .our-partner-btn {
+    width: 250px;
+  }
+  .home-page-hero-section-data-p {
+    margin-block: 0;
+  }
+}
+.logo-img {
+  width: auto;
+}

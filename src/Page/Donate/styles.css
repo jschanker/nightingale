@@ -1,0 +1,292 @@
+
+.donate-page {
+  background-color: #fff;
+  text-align: center;
+}
+.donate-page .page-content {
+  width: 100%;
+}
+
+.partition-line {
+  border-top: 2px solid #cdcdcd;
+}
+.donate-page-section {
+  margin-bottom: 64px;
+}
+.donate-page-image-section {
+  margin: 40px 0;
+  background-image: url("./assets/bg.png");
+  height: 800px;
+  width: 100%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+}
+.middleImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.donation-impact-data-2 {
+  margin-top: 200px !important;
+}
+.section-donate-title {
+  margin-top: 80px;
+  line-height: 42px;
+}
+
+.donation-details-container {
+  text-align: left;
+}
+
+.ac-details {
+  font-weight: 500;
+}
+.donation-details-container ul li {
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+.donate-liner {
+  border: 1px solid #cdcdcd;
+  background-color: #cdcdcd;
+  width: 400px;
+  align-items: center;
+  margin-left: 10px auto;
+}
+
+.donatation-payment {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.donate-page-button {
+  background-color: #f05f40;
+  border: 1px solid #f05f40;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 16px;
+  width: 352px;
+}
+
+.donate-button {
+  padding: 10px 13px 10px 13px;
+  margin: 25px 0 0 13px;
+}
+
+.about-donation p {
+  font-weight: 400;
+  color: #818181;
+  line-height: 20px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.donate-bg {
+  height: 847px;
+  padding-top: 1px;
+}
+
+.donate-bg-image {
+  position: absolute;
+}
+.donate-page-image-section {
+  width: 100% !important;
+}
+.bg-color {
+  display: none;
+  background-color: #fcdfd9;
+  width: 375px;
+  height: 100px;
+}
+
+.donate-title {
+  margin: 80px 0 10px 628px;
+}
+
+
+.donate-bg2 {
+  margin-top: 150px;
+  margin-left: 670px;
+}
+
+.Ellipse {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 740px;
+}
+
+.donation-impact-data .section-head {
+  color: #f05f40;
+  font-size: 72px;
+  font-family: Lusitana;
+  font-weight: 700;
+}
+
+.jobs {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+.online-students {
+  position: absolute;
+  top: 170px;
+  left: 1130px;
+}
+
+.states {
+  margin-top: 70px;
+  margin-left: 650px;
+}
+
+.donate-content {
+  font-weight: 400;
+  line-height: 28px;
+}
+.payment-row {
+  width: 500px;
+}
+.account-details span {
+  margin-bottom: 10px;
+}
+.hiring-page-button {
+  background-color: #f05f40;
+  border: #f05f40;
+  color: #fff;
+  padding: 10px 45px 10px 45px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+.link {
+  color: #f05f40;
+  text-decoration: underline;
+}
+
+.contact-button {
+  background-color: #f05f40;
+  border: 1px solid #f05f40;
+  color: #fff;
+  padding: 10px 13px 10px 13px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.donation-impact-data {
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 667px) {
+  .donate-page .w-100 {
+    width: 90% !important;
+  }
+  .account-details {
+    justify-content: space-around !important;
+  }
+
+  .donate-page .partition-line {
+    width: 90% !important;
+  }
+  .middleImg {
+    display: none;
+  }
+  .donation-impact-data {
+    flex-direction: column;
+    margin-block: 0 !important;
+  }
+  .donation-impact-data span {
+    margin-block: 20px !important;
+  }
+  .donation-impact-data-2 {
+    margin-block: 0px !important;
+  }
+
+  .donation-details-container {
+    margin: 25px 8px 0 0;
+  }
+  .donate-liner {
+    width: 330px;
+    margin-left: 20px;
+  }
+  .donatation-payment {
+    line-height: 20px;
+    margin: 40px 5px 0 5px;
+  }
+  .donate-page-button {
+    padding: 10px 80px 10px 80px;
+    margin-top: 3px;
+  }
+  .donate-button-container {
+    padding: 0;
+  }
+  .donate-button {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .contact-button {
+    padding: 10px 60px 10px 60px;
+    margin-top: 3px;
+  }
+  .donate-content {
+    margin: 35px 20px 0 25px;
+    text-align: left;
+    line-height: 20px;
+  }
+  .donate-content p {
+    width: 90% !important;
+  }
+  .about-donation {
+    margin: 35px 30px 0 15px;
+  }
+  .donate-title {
+    margin: 30px 8px 15px 40px;
+    line-height: 28px;
+  }
+  .donate-bg {
+    display: none;
+  }
+  .donate-bg2 {
+    display: none;
+  }
+  .Ellipse {
+    display: none;
+  }
+  .donation-impact-data .section-head {
+    font-size: 48px;
+  }
+  .jobs {
+    top: 95px;
+    left: 80px;
+  }
+  .online-students {
+    top: 218px;
+    left: 120px;
+  }
+  .states {
+    margin-top: 255px;
+    margin-left: 40px;
+  }
+  .bg-color {
+    display: block;
+    background-color: #fcdfd9;
+    width: 375px;
+    height: 456px;
+  }
+  .section-donate-title {
+    line-height: 28px;
+    margin: 0 10px 20px 10px;
+  }
+  .account-details {
+    margin-left: 10px;
+  }
+  .account-details span {
+    margin-bottom: 7px;
+  }
+  .donate-page-image-section {
+    height: 620px;
+  }
+}

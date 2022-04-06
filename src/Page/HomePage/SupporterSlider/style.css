@@ -1,0 +1,40 @@
+.supporter-carousal-cards {
+  display: flex;
+}
+.supporter-carousal-arrow--left {
+  left: -5%;
+}
+.supporter-carousal-arrow--right {
+  left: auto;
+  right: -5%;
+}
+.supporter-carousal-cards .logo-img {
+  width: 250px;
+}
+@media screen and (max-width: 1200px) {
+  .supporter-carousal-arrow--left {
+    left: -1%;
+  }
+  .supporter-carousal-arrow--right {
+    right: -1%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .supporter-carousal-arrow--left {
+    left: -10%;
+  }
+  .supporter-carousal-arrow--right {
+    right: -10%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .supporter-carousal-arrow--left {
+    left: 0%;
+  }
+  .supporter-carousal-arrow--right {
+    right: 0%;
+  }
+  .supporter-carousal-cards .logo-img {
+    width: 200px;
+  }
+}

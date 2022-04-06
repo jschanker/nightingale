@@ -1,0 +1,67 @@
+.NG-Header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-color {
+  background-color: white !important;
+}
+
+.divider {
+  border: 1px solid rgb(169, 170, 170);
+}
+.dropdown-menu {
+  padding: 0;
+}
+.header-title {
+  color: #2e2e2e !important;
+  font-weight: 700;
+  line-height: 28px;
+}
+.navbar a:active {
+  background-color: transparent;
+  color: black;
+}
+.dropdown-item {
+  height: 48px;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.nav-link,
+.navbar a {
+  font-size: 18px;
+  color: black;
+  transition: all ease 0.2s;
+}
+.nav-link:hover,
+.navbar a:hover {
+  color: var(--primary) !important;
+}
+
+.nav-logo {
+  width: 60%;
+  padding: 0 40px 0 10px;
+}
+
+@media screen and (max-width: 667px) {
+  .navbar-color {
+    background-color: #fcdfd9 !important;
+  }
+  .language {
+    display: none;
+  }
+  .dropdown-items {
+    background-color: #f9bfb3;
+    border: none;
+  }
+  .navbar-brand img {
+    width: 132px;
+    height: 32px;
+  }
+  .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: transparent;
+  }
+}

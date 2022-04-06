@@ -1,0 +1,306 @@
+.hero-P {
+  min-height: 350px;
+}
+.programmers a:hover {
+  text-decoration: none;
+}
+.phases_card_container .card {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(46, 46, 46, 0.06),
+    0px 2px 1px rgba(46, 46, 46, 0.04), 0px 1px 5px rgba(46, 46, 46, 0.08) !important;
+  border-radius: 8px;
+  max-width: 335px;
+  cursor: auto;
+}
+.phases_card_container .card:hover {
+  border: 2px solid transparent;
+  box-shadow: none;
+}
+
+.phases_card_container {
+  flex-wrap: wrap;
+}
+.bg-bg-card-1 {
+  background-color: var(--bg-card-1);
+  cursor: pointer;
+}
+.bg-bg-card-2 {
+  background-color: var(--bg-card-2);
+  cursor: auto;
+}
+.input {
+  width: 25em;
+  padding-left: 0 !important;
+}
+.input input {
+  border-bottom: 1px solid black !important;
+}
+.input .btn {
+  border-radius: 8px;
+}
+
+video {
+  border-radius: 20px;
+}
+.row {
+  margin-left: 0;
+}
+.programmers-main-video {
+  min-height: 255px !important;
+}
+.hero-P video {
+  height: 282px;
+}
+.programmers .next-step {
+  margin-bottom: 5rem;
+  /* in design 188px */
+}
+.next-step .btn {
+  max-width: 352px;
+}
+.new_programme_skills ul,
+.our_campus ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+.new_programme_skills ul li,
+.our_campus ul li {
+  position: relative;
+}
+.new_programme_skills .points::before {
+  content: "";
+  background-image: url("./assets/Shape.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -3.5%;
+  top: 5%;
+}
+.our_campus .points::before {
+  content: "";
+  background-image: url("./assets/Shape.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -6%;
+  top: 5%;
+}
+.new_programme,
+.new_programme_skills,
+.programme_phases,
+.our_campus,
+.programme_admissions {
+  margin-bottom: 6rem;
+}
+
+.students .container p {
+  width: 80%;
+}
+.students .video-container {
+  height: fit-content;
+}
+@media screen and (max-width: 1200px) {
+  .programmers .container {
+    width: 100%;
+  }
+  .hero-P .row {
+    height: 567px;
+  }
+  .hero-P video {
+    width: 450px;
+    height: 255px;
+  }
+  .left-P h2 {
+    margin-bottom: 0 rem !important;
+    font-weight: 700;
+  }
+  .students .container .row {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .student-video-parent {
+    height: fit-content;
+  }
+  .students video {
+    width: 500px;
+    height: 294px;
+  }
+  .benifits .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero-P .row {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .left-P {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0;
+    margin-top: 3rem;
+  }
+  .student-video-parent {
+    height: fit-content;
+  }
+  .students video {
+    width: 405px;
+    height: 230px;
+  }
+  .benifits .container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-P video {
+    width: 400px;
+    height: 225px;
+  }
+  .programmers-main-video {
+    min-height: 204px !important;
+  }
+  .hero-P .left-P {
+    margin-top: 1rem !important;
+    align-items: center !important;
+  }
+  .left-P h2 {
+    padding-inline: 0.5em !important;
+  }
+
+  .programmers .section-head {
+    font-size: 1.3rem !important;
+  }
+  .student-video-parent {
+    height: fit-content;
+  }
+  .students video {
+    width: 350px;
+    height: 200px;
+  }
+  /* .test-p {
+    margin-top: 2.5rem !important;
+  } */
+  .hero-P {
+    padding: 0 !important;
+    width: 95% !important;
+  }
+  .hero-P h3 {
+    margin-left: 1rem;
+  }
+  .programmers .students .row,
+  .test-p .container .row {
+    margin-inline: 0 !important;
+  }
+  .programmers .next-step {
+    margin-bottom: 2.875rem;
+  }
+  .new_programme {
+    margin-top: 2rem;
+  }
+  /* .new_programme .container,
+  .new_programme_skills .container,
+  .programme_admissions .container {
+    width: 90% !important;
+  } */
+  .new_programme_skills .points::before,
+  .our_campus .points::before {
+    left: -10%;
+    top: 5%;
+  }
+  .new_programme,
+  .new_programme_skills,
+  .programme_phases,
+  .our_campus,
+  .programme_admissions {
+    margin-bottom: 2rem;
+  }
+  .phases_card_container {
+    justify-content: center !important;
+    align-items: center;
+  }
+  .our_campus ul {
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero-P video {
+    /* width: 75%; */
+    height: 208px;
+  }
+  .programmers-main-video {
+    min-height: 147px !important;
+    align-items: center;
+  }
+
+  .input {
+    /* margin-inline: 0.5rem; */
+    width: 90% !important;
+    align-items: center !important;
+  }
+  .test-p .card {
+    min-width: 18rem;
+    min-height: 14rem;
+    padding-inline: 1rem;
+  }
+  video {
+    width: 300px;
+    /* height: 180px; */
+  }
+  .input .text {
+    font-size: 0.9em !important;
+  }
+  .input label {
+    font-size: 0.9em !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  .hero-P video {
+    width: 100%;
+    height: auto;
+  }
+
+  .test-p .card {
+    min-width: 16rem;
+    min-height: 10rem;
+  }
+  .students video {
+    width: 100%;
+    height: auto;
+  }
+  .test-p {
+    margin-top: 6rem !important;
+  }
+  .programmers .btn {
+    max-width: 251px !important;
+  }
+  .students .container p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .programmers-main-video {
+    min-height: 140px !important;
+    align-items: center;
+  }
+  .hero-P video {
+    width: 250px;
+    height: 130px;
+  }
+  .students video {
+    width: 100%;
+  }
+  .new_programme {
+    margin-top: 5.5rem;
+  }
+}
